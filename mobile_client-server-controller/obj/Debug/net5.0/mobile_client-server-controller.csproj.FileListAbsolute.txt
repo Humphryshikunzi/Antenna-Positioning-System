@@ -1,0 +1,16 @@
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\bin\Debug\net5.0\mobile_client-server-controller.exe
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\bin\Debug\net5.0\mobile_client-server-controller.deps.json
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\bin\Debug\net5.0\mobile_client-server-controller.runtimeconfig.json
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\bin\Debug\net5.0\mobile_client-server-controller.runtimeconfig.dev.json
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\bin\Debug\net5.0\mobile_client-server-controller.dll
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\bin\Debug\net5.0\ref\mobile_client-server-controller.dll
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\bin\Debug\net5.0\mobile_client-server-controller.pdb
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\obj\Debug\net5.0\mobile_client-server-controller.csproj.AssemblyReference.cache
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\obj\Debug\net5.0\mobile_client-server-controller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\obj\Debug\net5.0\mobile_client-server-controller.AssemblyInfoInputs.cache
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\obj\Debug\net5.0\mobile_client-server-controller.AssemblyInfo.cs
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\obj\Debug\net5.0\mobile_client-server-controller.csproj.CoreCompileInputs.cache
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\obj\Debug\net5.0\mobile_client-server-controller.dll
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\obj\Debug\net5.0\ref\mobile_client-server-controller.dll
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\obj\Debug\net5.0\mobile_client-server-controller.pdb
+C:\Users\humph\Desktop\Safaricom\Project\antenna positining system\mobile_client-server-controller\obj\Debug\net5.0\mobile_client-server-controller.genruntimeconfig.cache

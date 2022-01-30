@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Odap.Views.ItemsPage"
+             Title="{Binding Title}"
+             xmlns:local="clr-namespace:Odap.ViewModels"  
+             xmlns:model="clr-namespace:Odap.Models"  
+             x:Name="BrowseItemsPage"> 
+    <!--
+      x:DataType enables compiled bindings for better performance and compile time validation of binding expressions.
+      https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/data-binding/compiled-bindings
+    -->
+    <ContentPage.BindingContext>
+        <local:SensorsViewModel/>
+    </ContentPage.BindingContext>
+    <!--
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Lat" MinimumWidthRequest="100"/>
+                <Label Text="{Binding Lat, Mode=TwoWay}" 
+                                LineBreakMode="NoWrap" 
+                                Style="{DynamicResource ListItemTextStyle}" 
+                                FontSize="16"                                 
+                                MinimumWidthRequest="100"/>
+                <Label Text="{Binding DirectionNorthSouth}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Long" MinimumWidthRequest="100"/>
+                <Label Text="{Binding Long, Mode=TwoWay}" 
+                                LineBreakMode="NoWrap" 
+                                Style="{DynamicResource ListItemTextStyle}" 
+                                FontSize="16"                                 
+                                MinimumWidthRequest="100"/>
+                <Label Text="{Binding }"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="RSSI" MinimumWidthRequest="100"/>
+                <Label Text="{Binding RSSI, Mode=TwoWay}" 
+                                LineBreakMode="NoWrap" 
+                                Style="{DynamicResource ListItemTextStyle}" 
+                                FontSize="16"                                 
+                                MinimumWidthRequest="100"/>
+                <Label Text="dB"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+    -->
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+                    <Image Source="xamarin_logo.png" VerticalOptions="Center" HeightRequest="64" />
+                </ContentView>
+            </StackLayout>
+        </StackLayout>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                <Label Text="On-Demand Antenna Positioning" FontSize="Title"/>
+                <Label Text="This lets EUs in a BTS reach regularly give their status about RSSI and location to enable proper antenna positioning for azimuth and elevation angles for improved network coverage and user experience." FontSize="16" Padding="0,0,0,0"/>
+                <Label FontSize="16" Padding="0,24,0,0">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Learn more at "/>
+                                <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Button Margin="0,10,0,0" Text="Learn more"
+                        Command="{Binding OpenWebCommand}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>
