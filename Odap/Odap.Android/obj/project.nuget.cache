@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a2wOVw0P5qMVmqLJ4XYE6w9yViW+ZGWuONOeZCZ/tHexZlhKCmBSeWCi5rEREi+wp3zEnOMes6rliUX1HbEJyg==",
+  "dgSpecHash": "781AHNDqqVISUvn2Jy3TVTI1qnr/jsn1M5d5m5NlxIhP1Cyg+kMjYPQCree3MrIbbC6Yy3rzfETMkGuAm+nzow==",
   "success": true,
   "projectFilePath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap.Android\\Odap.Android.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\humph\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\humph\\.nuget\\packages\\plugin.currentactivity\\2.1.0.2\\plugin.currentactivity.2.1.0.2.nupkg.sha512",
     "C:\\Users\\humph\\.nuget\\packages\\plugin.permissions\\3.0.0.12\\plugin.permissions.3.0.0.12.nupkg.sha512",
+    "C:\\Users\\humph\\.nuget\\packages\\rg.plugins.popup\\2.0.0.14\\rg.plugins.popup.2.0.0.14.nupkg.sha512",
     "C:\\Users\\humph\\.nuget\\packages\\splat\\14.1.1\\splat.14.1.1.nupkg.sha512",
     "C:\\Users\\humph\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.7\\sqlitepclraw.bundle_e_sqlite3.2.0.7.nupkg.sha512",
     "C:\\Users\\humph\\.nuget\\packages\\sqlitepclraw.core\\2.0.7\\sqlitepclraw.core.2.0.7.nupkg.sha512",

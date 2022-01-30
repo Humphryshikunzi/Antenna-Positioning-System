@@ -5,6 +5,7 @@ FormsViewGroup.dll
 Plugin.CurrentActivity.dll
 Plugin.Geolocator.dll
 Plugin.Permissions.dll
+Rg.Plugins.Popup.dll
 SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll

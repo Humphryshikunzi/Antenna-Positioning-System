@@ -1,12 +1,10 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
-using AfriLearn.Constants;
 
-namespace AfriLearn.Services
+namespace Odap.Services
 {
     class HttpClientService 
     {
@@ -19,7 +17,7 @@ namespace AfriLearn.Services
             _handler.Credentials = default;
             _handler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => true;
             _httpClient = new HttpClient(_handler);
-            _httpClient.BaseAddress = new Uri(HttpClientServiceConstants.BaseUri);          
+            _httpClient.BaseAddress = new Uri(Constants.BaseUrl);          
         }
         public HttpClientService(string token)
         {
@@ -28,7 +26,7 @@ namespace AfriLearn.Services
             _handler.Credentials = default; 
             _handler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => true;
             _httpClient = new HttpClient(_handler);
-            _httpClient.BaseAddress = new Uri(HttpClientServiceConstants.BaseUri);
+            _httpClient.BaseAddress = new Uri(Constants.BaseUrl);
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
         }
 
@@ -43,7 +41,7 @@ namespace AfriLearn.Services
             var jsonDataUser = JsonConvert.SerializeObject(objectToSend);
             var httpContent = new StringContent(jsonDataUser);
             httpContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-            var response = await _httpClient.PostAsync(theUri, httpContent).ConfigureAwait(false);
+            var response =  await _httpClient.PostAsync(theUri, httpContent);
             return response.Content.ReadAsStringAsync().Result;
         }
         public  async Task<string> UpDate(object objectToUpdate, string theUri)

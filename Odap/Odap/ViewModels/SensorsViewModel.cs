@@ -1,16 +1,20 @@
-﻿using Akavache;
+﻿using AfriLearn.Services;
+using Akavache;
 using Newtonsoft.Json;
 using Odap.Models;
+using Odap.Services;
 using Plugin.Geolocator;
 using System;
 using System.Collections.ObjectModel;
 using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Net.Sockets;
 using System.Reactive.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Xamarin.Essentials; 
+using Xamarin.Essentials;
 
 
 namespace Odap.ViewModels
@@ -21,14 +25,7 @@ namespace Odap.ViewModels
         SensorSpeed speed = SensorSpeed.UI;
         public ObservableCollection<Item> Items { get; set; }
         CancellationTokenSource cts;
-        SensorsData sensorData;
-        static string serverIP = "defrilab.com";
-        static int port = 5070;
-        TcpClient tcpClient = new TcpClient();
-        static IPAddress ipAddress = Dns.GetHostEntry(serverIP).AddressList[0];
-        IPEndPoint ipEndPoint = new IPEndPoint(ipAddress, port);
-        NetworkStream stream;
-
+        SensorsData sensorData;    
 
         private double lat;
 
@@ -158,9 +155,7 @@ namespace Odap.ViewModels
             //ToggleAccelerometer();
             //Items = new ObservableCollection<Item>();
             sensorData = new SensorsData();
-
-            //eastablish a tcp connection
-            tcpClient.Connect(ipEndPoint);
+             
             InitializeGeolocation();
             // Register for reading changes, be sure to unsubscribe when finished
             //Accelerometer.ReadingChanged += Accelerometer_ReadingChanged;
@@ -237,19 +232,13 @@ namespace Odap.ViewModels
             if (locator.IsListening)
             {
                 // check if the geolocator is listening, continue with execution if not.
-                // send first Identity of device
-                byte[] identity = Encoding.UTF8.GetBytes(DeviceInfo.Name + "_" + Guid.NewGuid().ToString());
-                stream = tcpClient.GetStream();
-                //first message
-                stream.Write(identity, 0, identity.Length);
-                stream.Write(identity, 0, identity.Length);
                 return;
             }
             await locator.StartListeningAsync(TimeSpan.FromSeconds(0), 0.1);
             locator.PositionChanged += Locator_PositionChanged; 
         }
 
-        private async void Locator_PositionChanged(object sender, Plugin.Geolocator.Abstractions.PositionEventArgs e)
+        private  void Locator_PositionChanged(object sender, Plugin.Geolocator.Abstractions.PositionEventArgs e)
         {
             //read the location of device
             var location = e.Position;
@@ -285,8 +274,19 @@ namespace Odap.ViewModels
             };
 
             //unique id for the device for identification
-            string uniqueDeveiceIdentity = DeviceInfo.Name + "_" + new Guid().ToString();
-           
+            string deviceId = DeviceInfo.Name + "_" + Guid.NewGuid().ToString();
+            /*
+            try
+            {
+                var deviceIdStore = BlobCache.UserAccount.GetObject<string>("deviceId");
+                deviceId = deviceIdStore.ToString();
+            }
+            catch (Exception)
+            {
+                deviceId = DeviceInfo.Name + "_" + Guid.NewGuid().ToString();
+                await BlobCache.UserAccount.InsertObject("uniqueDeviceId", deviceId);
+
+            }*/
             //object to hold the data for sending
             var deviceLocation = new SensorsData()
             {
@@ -295,21 +295,26 @@ namespace Odap.ViewModels
                 Alt = Alt, // in meters
                 DirectionNorthSouth = DirectionNorthSouth,
                 DirectionEastWest = directionEastWest,
-                UniqueDeviceId = uniqueDeveiceIdentity,
+                UniqueDeviceId = deviceId,
                 AccuracyGPS = AccuracyGPS
-            };             
+            };
 
-            // now send the data itself
-            var jsonDataUser = JsonConvert.SerializeObject(deviceLocation);
-            byte[] data = Encoding.UTF8.GetBytes(jsonDataUser);
-            stream = tcpClient.GetStream();
-            stream.Write(data, 0, data.Length);
-            stream.Close();
-            tcpClient.Close();
-
+            var httpClientService = new HttpClientService();
+            if (!InternetService.Internet())
+            {
+                InternetService.NoInternet();
+            }
+            else
+            {
+                HttpClient _httpClient = new HttpClient();
+                var jsonDataUser = JsonConvert.SerializeObject(deviceLocation);
+                var httpcontent = new StringContent(jsonDataUser);
+                httpcontent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+                var response =  _httpClient.PostAsync(Constants.BaseUrl+Constants.MessageUrl, httpcontent); 
+            }            
             //wait for 5 seconds before reponding to the next event
             //fired for location change
-            await Task.Delay(5000);
+             Task.Delay(5000);
         }
 
         private void GetCellInfor()
