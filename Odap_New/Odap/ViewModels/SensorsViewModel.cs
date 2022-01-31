@@ -216,13 +216,13 @@ namespace Odap.ViewModels
                 return;
             }
             await locator.StartListeningAsync(TimeSpan.FromSeconds(0), 0.1);
-            locator.PositionChanged += Locator_PositionChanged;
+           // locator.PositionChanged += Locator_PositionChanged;
         }        
 
-        public async void Locator_PositionChanged(object sender, Plugin.Geolocator.Abstractions.PositionEventArgs e)
+        public async void Locator_PositionChanged()
         {
             //read the location of device
-            var location = e.Position;
+            var location = await Geolocation.GetLastKnownLocationAsync();
             Lat = location.Latitude;
             Long = location.Longitude;
             Alt = location.Altitude;

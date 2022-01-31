@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JZ+urE0W6CgCNiEUMhoiww7e8ibmyBWn+9HaVWTx7c1iTL/F77NIOl1YbsSq2wnR/ABMC7Cd5ARrsEsRseUWfA==",
+  "dgSpecHash": "p8lgX/kUVpIczO71yXjSf2KoHnSoPp4JQdYbjEa9JCiiY49EvsRQzhkrEWkAoKs/f/InTW5IP2w/xbmTkqmU+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\humph\\Desktop\\Odap\\Odap.Android\\Odap.Android.csproj",
+  "projectFilePath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap_New\\Odap.Android\\Odap.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\humph\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\humph\\.nuget\\packages\\plugin.currentactivity\\2.1.0.2\\plugin.currentactivity.2.1.0.2.nupkg.sha512",

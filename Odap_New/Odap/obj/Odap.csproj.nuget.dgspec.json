@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\humph\\Desktop\\Odap\\Odap\\Odap.csproj": {}
+    "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap_New\\Odap\\Odap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\humph\\Desktop\\Odap\\Odap\\Odap.csproj": {
+    "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap_New\\Odap\\Odap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\humph\\Desktop\\Odap\\Odap\\Odap.csproj",
+        "projectUniqueName": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap_New\\Odap\\Odap.csproj",
         "projectName": "Odap",
-        "projectPath": "C:\\Users\\humph\\Desktop\\Odap\\Odap\\Odap.csproj",
+        "projectPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap_New\\Odap\\Odap.csproj",
         "packagesPath": "C:\\Users\\humph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\humph\\Desktop\\Odap\\Odap\\obj\\",
+        "outputPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap_New\\Odap\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

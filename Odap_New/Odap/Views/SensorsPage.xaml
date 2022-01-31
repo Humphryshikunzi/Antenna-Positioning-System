@@ -3,10 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:ViewModel="clr-namespace:Odap.ViewModels"
              x:Class="Odap.Views.SensorsPage"
-             Title="Sensors">
-    <ContentPage.BindingContext>
-        <ViewModel:SensorsViewModel/>
-    </ContentPage.BindingContext>
+             Title="Sensors"> 
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin.Forms!"
