@@ -79,11 +79,7 @@
         https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
     -->
    
-    <!--
-    <FlyoutItem Title="Sensors" Icon="icon_feed.png">
-        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" />
-    </FlyoutItem>
-    -->
+    
     <FlyoutItem Title="Location Page" Icon="icon_feed.png">
         <ShellContent Route="LocationPage" ContentTemplate="{DataTemplate local:LocationPage}" />
     </FlyoutItem>

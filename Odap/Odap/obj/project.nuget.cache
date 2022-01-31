@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8pp6UuPqU+kLCs6r9HO8IJEhAr7g9CepA+3N78MwOAERLzpLqkVrbT7FnaCGCd6Sy/KywseMobLtbRFDcUZPIA==",
+  "dgSpecHash": "AJ8ScU6uqXLhma1xrb+zmcBe2CFAFFYMjTiqhKOk9R6xfRnnpn7MA06/W04I3EpwtaHUOFlkvqxnqFDp4P/GXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap\\Odap.csproj",
+  "projectFilePath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap\\Odap.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\humph\\.nuget\\packages\\akavache\\8.1.1\\akavache.8.1.1.nupkg.sha512",
     "C:\\Users\\humph\\.nuget\\packages\\akavache.core\\8.1.1\\akavache.core.8.1.1.nupkg.sha512",

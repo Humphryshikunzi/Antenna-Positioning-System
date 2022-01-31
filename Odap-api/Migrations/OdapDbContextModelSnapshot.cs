@@ -255,6 +255,9 @@ namespace OdapApi.Migrations
                     b.Property<double?>("Alt")
                         .HasColumnType("float");
 
+                    b.Property<DateTime>("DateAndTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("DirectionEastWest")
                         .HasColumnType("nvarchar(max)");
 

@@ -1,4 +1,6 @@
-﻿namespace OdapApi.Models.Device
+﻿using System;
+
+namespace OdapApi.Models.Device
 {
     public class DeviceData : BaseModel
     {
@@ -14,5 +16,6 @@
         public float AccY { get; set; }
         public float AccZ { get; set; }
         public float RSSI { get; set; }
+        public DateTime DateAndTime  { get; set; }
     }
 }

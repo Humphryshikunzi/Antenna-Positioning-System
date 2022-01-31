@@ -1,17 +1,11 @@
-﻿using AfriLearn.Services;
-using Akavache;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Odap.Models;
 using Odap.Services;
 using Plugin.Geolocator;
 using System;
 using System.Collections.ObjectModel;
-using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Net.Sockets;
-using System.Reactive.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
@@ -235,10 +229,10 @@ namespace Odap.ViewModels
                 return;
             }
             await locator.StartListeningAsync(TimeSpan.FromSeconds(0), 0.1);
-            locator.PositionChanged += Locator_PositionChanged; 
-        }
+            locator.PositionChanged += Locator_PositionChanged;
+        }        
 
-        private  void Locator_PositionChanged(object sender, Plugin.Geolocator.Abstractions.PositionEventArgs e)
+        public async void Locator_PositionChanged(object sender, Plugin.Geolocator.Abstractions.PositionEventArgs e)
         {
             //read the location of device
             var location = e.Position;
@@ -265,6 +259,7 @@ namespace Odap.ViewModels
                 DirectionEastWest = "E";
             }
 
+            /*
             Items = new ObservableCollection<Item>()
             {
                 new Item { UniqueItemKey = Guid.NewGuid().ToString(), Text = "Lat", Description="UE Latitude", Value=(float)Lat, Unit=directionNorthSouth },
@@ -272,7 +267,7 @@ namespace Odap.ViewModels
                 new Item { UniqueItemKey = Guid.NewGuid().ToString(), Text = "Alt", Description="UE Altitude" , Value = (float)Alt, Unit="m"},               
                 new Item { UniqueItemKey = Guid.NewGuid().ToString(), Text = "RSSI", Description="The UE received Signal Strength from the BTS", Value=-89f, Unit="dB" }
             };
-
+            */
             //unique id for the device for identification
             string deviceId = DeviceInfo.Name + "_" + Guid.NewGuid().ToString();
             /*
@@ -298,11 +293,10 @@ namespace Odap.ViewModels
                 UniqueDeviceId = deviceId,
                 AccuracyGPS = AccuracyGPS
             };
-
-            var httpClientService = new HttpClientService();
+             
             if (!InternetService.Internet())
             {
-                InternetService.NoInternet();
+              await  InternetService.NoInternet();
             }
             else
             {
@@ -310,11 +304,11 @@ namespace Odap.ViewModels
                 var jsonDataUser = JsonConvert.SerializeObject(deviceLocation);
                 var httpcontent = new StringContent(jsonDataUser);
                 httpcontent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-                var response =  _httpClient.PostAsync(Constants.BaseUrl+Constants.MessageUrl, httpcontent); 
+                var response = await  _httpClient.PostAsync(Constants.BaseUrl+Constants.MessageUrl, httpcontent); 
             }            
-            //wait for 5 seconds before reponding to the next event
+            //wait for 5 seconds before responding to the next event
             //fired for location change
-             Task.Delay(5000);
+            await  Task.Delay(5000);
         }
 
         private void GetCellInfor()

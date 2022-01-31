@@ -2450,11 +2450,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap.iOS\\Odap.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap.iOS\\Odap.iOS.csproj",
       "projectName": "Odap.iOS",
-      "projectPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap.iOS\\Odap.iOS.csproj",
+      "projectPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap.iOS\\Odap.iOS.csproj",
       "packagesPath": "C:\\Users\\humph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap.iOS\\obj\\",
+      "outputPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2475,8 +2475,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap\\Odap.csproj": {
-              "projectPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap\\Odap.csproj"
+            "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap\\Odap.csproj": {
+              "projectPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap\\Odap.csproj"
             }
           }
         }

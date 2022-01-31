@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap.Android\\Odap.Android.csproj": {}
+    "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap.Android\\Odap.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap.Android\\Odap.Android.csproj": {
+    "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap.Android\\Odap.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap.Android\\Odap.Android.csproj",
+        "projectUniqueName": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap.Android\\Odap.Android.csproj",
         "projectName": "Odap.Android",
-        "projectPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap.Android\\Odap.Android.csproj",
+        "projectPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap.Android\\Odap.Android.csproj",
         "packagesPath": "C:\\Users\\humph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap.Android\\obj\\",
+        "outputPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap\\Odap.csproj": {
-                "projectPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap\\Odap.csproj"
+              "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap\\Odap.csproj": {
+                "projectPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap\\Odap.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap\\Odap.csproj": {
+    "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap\\Odap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap\\Odap.csproj",
+        "projectUniqueName": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap\\Odap.csproj",
         "projectName": "Odap",
-        "projectPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap\\Odap.csproj",
+        "projectPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap\\Odap.csproj",
         "packagesPath": "C:\\Users\\humph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\antenna positining system\\Odap\\Odap\\obj\\",
+        "outputPath": "C:\\Users\\humph\\Desktop\\Safaricom\\Project\\Antenna-Positioning-System\\Odap\\Odap\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
