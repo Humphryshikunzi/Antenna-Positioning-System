@@ -255,7 +255,7 @@ namespace OdapApi.Migrations
                     b.Property<double?>("Alt")
                         .HasColumnType("float");
 
-                    b.Property<DateTime>("DateAndTime")
+                    b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("DirectionEastWest")
@@ -272,6 +272,9 @@ namespace OdapApi.Migrations
 
                     b.Property<float>("RSSI")
                         .HasColumnType("real");
+
+                    b.Property<string>("Time")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UniqueDeviceId")
                         .HasColumnType("nvarchar(max)");

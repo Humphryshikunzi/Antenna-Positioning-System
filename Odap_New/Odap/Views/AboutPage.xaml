@@ -30,7 +30,7 @@
         <ScrollView Grid.Row="1">
             <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
                 <Label Text="On-Demand Antenna Positioning" FontSize="Title"/>
-                <Label Text="This lets EUs in a BTS reach regularly give their status about RSSI and location to enable proper antenna positioning for azimuth and elevation angles for improved network coverage and user experience." FontSize="16" Padding="0,0,0,0"/>
+                <Label Text="This lets EUs in a BTS's reach regularly give their status about RSSI and location to enable proper antenna positioning for azimuth and elevation angles for improved network coverage and user experience." FontSize="16" Padding="0,0,0,0"/>
             </StackLayout>
         </ScrollView>
     </Grid>

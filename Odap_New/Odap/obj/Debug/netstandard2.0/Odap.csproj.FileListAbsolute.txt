@@ -16,10 +16,6 @@ C:\Users\humph\Desktop\Odap\Odap\obj\Debug\netstandard2.0\Odap.dll
 C:\Users\humph\Desktop\Odap\Odap\obj\Debug\netstandard2.0\ref\Odap.dll
 C:\Users\humph\Desktop\Odap\Odap\obj\Debug\netstandard2.0\Odap.pdb
 C:\Users\humph\Desktop\Odap\Odap\obj\Debug\netstandard2.0\Odap.csproj.AssemblyReference.cache
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\bin\Debug\netstandard2.0\Odap.deps.json
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\bin\Debug\netstandard2.0\Odap.dll
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\bin\Debug\netstandard2.0\ref\Odap.dll
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\bin\Debug\netstandard2.0\Odap.pdb
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\obj\Debug\netstandard2.0\Odap.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
@@ -29,6 +25,11 @@ C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Oda
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\obj\Debug\netstandard2.0\Odap.AssemblyInfoInputs.cache
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\obj\Debug\netstandard2.0\Odap.AssemblyInfo.cs
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\obj\Debug\netstandard2.0\Odap.csproj.CoreCompileInputs.cache
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\bin\Debug\netstandard2.0\Odap.deps.json
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\bin\Debug\netstandard2.0\Odap.dll
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\bin\Debug\netstandard2.0\ref\Odap.dll
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\bin\Debug\netstandard2.0\Odap.pdb
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\obj\Debug\netstandard2.0\Odap.csproj.AssemblyReference.cache
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\obj\Debug\netstandard2.0\Odap.dll
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\obj\Debug\netstandard2.0\ref\Odap.dll

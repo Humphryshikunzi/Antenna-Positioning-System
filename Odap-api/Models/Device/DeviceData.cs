@@ -17,6 +17,6 @@ namespace OdapApi.Models.Device
         public float AccZ { get; set; }
         public float RSSI { get; set; }
         public DateTime Date { get; set; }
-        public TimeSpan Time { get; set; }
+        public string Time { get; set; }        
     }
 }

@@ -5,6 +5,7 @@ using Plugin.Geolocator;
 using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -123,18 +124,17 @@ namespace Odap.Views
                 return;
             } 
             locator.PositionChanged += Locator_PositionChanged;
-            await locator.StartListeningAsync(TimeSpan.FromMinutes(0), 0.1);
+            await locator.StartListeningAsync(TimeSpan.FromSeconds(6), 0.1);
         }
 
         private async void Locator_PositionChanged(object sender, Plugin.Geolocator.Abstractions.PositionEventArgs e)
         { 
-             
             Lat =  e.Position.Latitude;
             Long = e.Position.Longitude;
             Alt =  e.Position.Altitude;
             AccuracyGPS = e.Position.Accuracy;
             var date = DateTime.Now.Date;
-            var time = DateTime.Now.TimeOfDay;
+            var time = DateTime.Now.ToShortTimeString();
 
             //check for the direction
             if (Lat.ToString().Contains("-"))
@@ -154,10 +154,8 @@ namespace Odap.Views
                 DirectionEastWest = "E";
             }
 
-
             //unique id for the device for identification
             string deviceId = DeviceInfo.Name + "_" + Guid.NewGuid().ToString();
-
              
             latValueSpan.Text = Lat.ToString();
             latUnitSpan.Text = DirectionNorthSouth;
@@ -165,11 +163,10 @@ namespace Odap.Views
             lonUnitSpan.Text = DirectionEastWest;
             altValueSpan.Text =  Alt.ToString();
             dateValueSpan.Text = date.ToString();
-            timeValueSpan.Text = time.ToString();
-            
+            timeValueSpan.Text = time.ToString();            
 
             //object to hold the data for sending
-            var deviceLocation = new SensorsData()
+            sensorData = new SensorsData()
             {
                 Lat = Lat,
                 Long = Long,
@@ -189,13 +186,14 @@ namespace Odap.Views
             else
             {
                 HttpClient _httpClient = new HttpClient();
-                var jsonDataUser = JsonConvert.SerializeObject(deviceLocation);
+                var jsonDataUser = JsonConvert.SerializeObject(sensorData);
                 var httpcontent = new StringContent(jsonDataUser);
                 httpcontent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-                //await _httpClient.PostAsync(Constants.BaseUrl + Constants.MessageUrl, httpcontent);
+                var response = await _httpClient.PostAsync(Constants.BaseUrl + Constants.MessageUrl, httpcontent);
             }
             //wait for 5 seconds before responding to the next event fired for location change
-            await Task.Delay(5000);
+            await Task.Delay(10000);
         }
     }
+     
 }
