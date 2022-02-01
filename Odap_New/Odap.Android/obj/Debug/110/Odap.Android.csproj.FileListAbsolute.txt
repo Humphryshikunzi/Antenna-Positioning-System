@@ -821,7 +821,9 @@ C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Oda
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\assets\Xamarin.Google.Android.Material.dll
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\assets\Xamarin.Google.Android.Material.pdb
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\assets\Xamarin.Google.Guava.ListenableFuture.dll
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\androidx\jl\b8d471dd-68ee-4dcb-a2bf-3c6a389ac2b8.jar
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\stamp\_AndroidXJetifyJavaLibraryRules.stamp
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\androidx\proguard\7871aeb1-2fbc-4600-97c3-ba60c8e2e061.cfg
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\stamp\_AndroidXJetifyProguardRules.stamp
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\androidx\_AndroidXJetifyProguardRules.jetify
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\stamp\_AndroidXCecilfy.stamp
@@ -1204,5 +1206,3 @@ C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Oda
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\androidx\jl\76ad17d9-10d3-4370-839f-314d4880c342.jar
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\androidx\proguard\6dd92231-d9a9-489d-880f-51091ea39023.cfg

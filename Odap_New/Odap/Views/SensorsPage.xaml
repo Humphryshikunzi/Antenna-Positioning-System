@@ -6,9 +6,53 @@
              Title="Sensors"> 
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Odap is currenting transmitting your location and RSSI values!"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" 
+                />
+            <Label x:Name="latLabel">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Latitude"/>
+                            <Span x:Name="LatValue"/>
+                            <Span x:Name="LatUnit"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label x:Name="lonLabel">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Longitude"/>
+                            <Span x:Name="LonValue"/>
+                            <Span x:Name="LonUnit"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label x:Name="altLabel">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Altitude"/>
+                            <Span x:Name="AltValue"/>
+                            <Span x:Name="m"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label x:Name="timeLabel">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Time"/>
+                            <Span x:Name="time"/> 
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

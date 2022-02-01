@@ -1,4 +1,6 @@
-﻿namespace Odap.Models
+﻿using System;
+
+namespace Odap.Models
 {
     public class SensorsData : BaseModel
     {
@@ -14,5 +16,6 @@
         public float AccY { get; set; }
         public float AccZ { get; set; }
         public float RSSI { get; set; }
+        public  DateTime DateAndTime { get; set; }
     }
 }
