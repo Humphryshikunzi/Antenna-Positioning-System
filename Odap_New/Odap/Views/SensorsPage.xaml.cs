@@ -133,6 +133,8 @@ namespace Odap.Views
             Long = e.Position.Longitude;
             Alt =  e.Position.Altitude;
             AccuracyGPS = e.Position.Accuracy;
+            var date = DateTime.Now.Date;
+            var time = DateTime.Now.TimeOfDay;
 
             //check for the direction
             if (Lat.ToString().Contains("-"))
@@ -156,6 +158,16 @@ namespace Odap.Views
             //unique id for the device for identification
             string deviceId = DeviceInfo.Name + "_" + Guid.NewGuid().ToString();
 
+             
+            latValueSpan.Text = Lat.ToString();
+            latUnitSpan.Text = DirectionNorthSouth;
+            lonValueSpan.Text = Long.ToString();
+            lonUnitSpan.Text = DirectionEastWest;
+            altValueSpan.Text =  Alt.ToString();
+            dateValueSpan.Text = date.ToString();
+            timeValueSpan.Text = time.ToString();
+            
+
             //object to hold the data for sending
             var deviceLocation = new SensorsData()
             {
@@ -166,7 +178,8 @@ namespace Odap.Views
                 DirectionEastWest = directionEastWest,
                 UniqueDeviceId = deviceId,
                 AccuracyGPS = AccuracyGPS,
-                DateAndTime = DateTime.Now
+                Date = date,
+                Time = time
             };
 
             if (!InternetService.Internet())

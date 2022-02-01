@@ -16,6 +16,7 @@ namespace Odap.Models
         public float AccY { get; set; }
         public float AccZ { get; set; }
         public float RSSI { get; set; }
-        public  DateTime DateAndTime { get; set; }
+        public  DateTime  Date { get; set; }
+        public  TimeSpan Time { get; set; }
     }
 }

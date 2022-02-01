@@ -5,18 +5,18 @@
              x:Class="Odap.Views.SensorsPage"
              Title="Sensors"> 
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Margin="10,10,0,0">
             <Label Text="Odap is currenting transmitting your location and RSSI values!"
                 VerticalOptions="Start" 
-                HorizontalOptions="CenterAndExpand" 
-                />
+                HorizontalOptions="CenterAndExpand"/>
             <Label x:Name="latLabel">
                 <Label.FormattedText>
                     <FormattedString>
                         <FormattedString.Spans>
                             <Span Text="Latitude"/>
-                            <Span x:Name="LatValue"/>
-                            <Span x:Name="LatUnit"/>
+                            <Span Text="      =  "/>
+                            <Span x:Name="latValueSpan"/>
+                            <Span x:Name="latUnitSpan"/>
                         </FormattedString.Spans>
                     </FormattedString>
                 </Label.FormattedText>
@@ -26,8 +26,9 @@
                     <FormattedString>
                         <FormattedString.Spans>
                             <Span Text="Longitude"/>
-                            <Span x:Name="LonValue"/>
-                            <Span x:Name="LonUnit"/>
+                            <Span Text="   =   "/>
+                            <Span x:Name="lonValueSpan"/>
+                            <Span x:Name="lonUnitSpan"/>
                         </FormattedString.Spans>
                     </FormattedString>
                 </Label.FormattedText>
@@ -37,8 +38,20 @@
                     <FormattedString>
                         <FormattedString.Spans>
                             <Span Text="Altitude"/>
-                            <Span x:Name="AltValue"/>
+                            <Span Text="       =   "/>
+                            <Span x:Name="altValueSpan"/>
                             <Span x:Name="m"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label x:Name="dateLabel">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Date"/>
+                            <Span Text="             =   "/>
+                            <Span x:Name="dateValueSpan"/>
                         </FormattedString.Spans>
                     </FormattedString>
                 </Label.FormattedText>
@@ -48,7 +61,20 @@
                     <FormattedString>
                         <FormattedString.Spans>
                             <Span Text="Time"/>
-                            <Span x:Name="time"/> 
+                            <Span Text="            =   "/>
+                            <Span x:Name="timeValueSpan"/> 
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label x:Name="timeLabel">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="RSSI"/>
+                            <Span Text="             =   "/>
+                            <Span x:Name="rssi"/>
+                            <Span Text="Not Available now"/>
                         </FormattedString.Spans>
                     </FormattedString>
                 </Label.FormattedText>
