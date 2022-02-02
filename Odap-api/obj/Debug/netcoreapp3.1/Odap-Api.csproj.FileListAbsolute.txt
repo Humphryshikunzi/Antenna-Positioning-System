@@ -148,3 +148,4 @@ C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap-api\obj
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap-api\obj\Debug\netcoreapp3.1\Odap-Api.dll
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap-api\obj\Debug\netcoreapp3.1\Odap-Api.pdb
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap-api\obj\Debug\netcoreapp3.1\Odap-Api.genruntimeconfig.cache
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap-api\obj\Debug\netcoreapp3.1\Odap-Api.csproj.AssemblyReference.cache

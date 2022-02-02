@@ -60,9 +60,9 @@ namespace OdapApi.Repositories
             await _OdapDbContext.SaveChangesAsync();
         }
 
-        public IEnumerable<DeviceData> GetRecentRAngleMessage()
+        public IEnumerable<RAngle> GetRecentRAngleMessage()
         {
-            return _OdapDbContext.DevicesData.OrderByDescending(message => message.Id).Take(5);
+            return _OdapDbContext.RAngles.OrderByDescending(message => message.Id).Take(5);
         }
     }
 }

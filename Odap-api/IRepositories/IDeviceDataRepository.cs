@@ -17,6 +17,6 @@ namespace OdapApi.IRepositories
 
         //RAngle
         Task AddRAngleValue(RAngle rAngle);
-        IEnumerable<DeviceData> GetRecentRAngleMessage();
+        IEnumerable<RAngle> GetRecentRAngleMessage();
     }
 }

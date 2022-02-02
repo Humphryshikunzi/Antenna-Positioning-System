@@ -45,7 +45,7 @@ namespace OdapApi.Controllers
         [HttpGet("recentRAngleMessage")]
         public ActionResult GetRecentRAngleMessage()
         {
-            return Ok(_OdapRepository.GetRecentMessages());
+            return Ok(_OdapRepository.GetRecentRAngleMessage());
         }
 
         [HttpGet("getbyid/{id}")]
