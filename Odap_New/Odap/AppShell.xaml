@@ -32,6 +32,7 @@
     <TabBar>
         <ShellContent Title="About" Icon="icon_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
         <ShellContent Title="Sensors" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:SensorsPage}" />
+        <ShellContent Title="RControl" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:RControl}" />
     </TabBar>
 
     <!--

@@ -34,3 +34,4 @@ C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Oda
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\obj\Debug\netstandard2.0\Odap.dll
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\obj\Debug\netstandard2.0\ref\Odap.dll
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\obj\Debug\netstandard2.0\Odap.pdb
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap\obj\Debug\netstandard2.0\Views\RControl.xaml.g.cs

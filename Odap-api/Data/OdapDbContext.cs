@@ -14,5 +14,6 @@ namespace OdapApi.Data
 
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<DeviceData> DevicesData { get; set; }
+        public  DbSet<RAngle>  RAngles { get; set; }
     }
 }

@@ -230,6 +230,21 @@ namespace OdapApi.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
+            modelBuilder.Entity("Odap.Models.RAngle", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int>("Angle")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("RAngles");
+                });
+
             modelBuilder.Entity("OdapApi.Models.Device.DeviceData", b =>
                 {
                     b.Property<int>("Id")

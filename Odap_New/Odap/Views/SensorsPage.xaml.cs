@@ -134,7 +134,7 @@ namespace Odap.Views
             Alt =  e.Position.Altitude;
             AccuracyGPS = e.Position.Accuracy;
             var date = DateTime.Now.Date;
-            var time = DateTime.Now.ToShortTimeString();
+            var time = DateTime.Now.ToLongTimeString();
 
             //check for the direction
             if (Lat.ToString().Contains("-"))

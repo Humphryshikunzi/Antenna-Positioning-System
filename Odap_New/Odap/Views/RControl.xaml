@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Odap.Views.RControl">
+    <ContentPage.Content>
+        <StackLayout Padding="10,0,10,0" 
+                     VerticalOptions="Center">
+            <Label Text="Enter Azimuth Angle (Degrees)"/>
+            <Entry x:Name="rControlValueEntry"
+                    Placeholder="0"/>
+            <Button x:Name="rControlBtn"
+                    VerticalOptions="Center" 
+                    Text="Send"
+                    Clicked="rControlBtn_Clicked"/>
+            <Label x:Name="alertLbl"
+                   Text="Angle Value Sent Successfully,  input has been reset to zero."
+                   IsVisible="false"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Odap.Models;
 using OdapApi.Data;
 using OdapApi.IRepositories;
 using OdapApi.Models.Device;
@@ -51,6 +52,17 @@ namespace OdapApi.Repositories
         {
             _OdapDbContext.Update(deviceMessage);
             return _OdapDbContext.SaveChangesAsync();
+        }
+
+        public async Task AddRAngleValue(RAngle rAngle)
+        {
+            _OdapDbContext.Add(rAngle);
+            await _OdapDbContext.SaveChangesAsync();
+        }
+
+        public IEnumerable<DeviceData> GetRecentRAngleMessage()
+        {
+            return _OdapDbContext.DevicesData.OrderByDescending(message => message.Id).Take(5);
         }
     }
 }

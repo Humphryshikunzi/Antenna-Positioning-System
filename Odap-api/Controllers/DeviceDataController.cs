@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Odap.Models;
 using OdapApi.IRepositories;
 using OdapApi.Models.Device;
 using System.Threading.Tasks;
@@ -24,6 +25,12 @@ namespace OdapApi.Controllers
             await _OdapRepository.AddOdapDevice(OdapObject);
             return Ok();
         }
+        [HttpPost("addOdapRAngle")]
+        public async Task<ActionResult> AddOdapRAngle(RAngle OdapObject)
+        {
+            await _OdapRepository.AddRAngleValue(OdapObject);
+            return Ok();
+        }
 
         [HttpGet("all")]
         public ActionResult GetAll()
@@ -32,6 +39,11 @@ namespace OdapApi.Controllers
         }
         [HttpGet("recentMessages")]
         public ActionResult GetRecent()
+        {
+            return Ok(_OdapRepository.GetRecentMessages());
+        }
+        [HttpGet("recentRAngleMessage")]
+        public ActionResult GetRecentRAngleMessage()
         {
             return Ok(_OdapRepository.GetRecentMessages());
         }
