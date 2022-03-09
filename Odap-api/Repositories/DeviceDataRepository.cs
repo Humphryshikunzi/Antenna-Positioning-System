@@ -57,7 +57,7 @@ namespace OdapApi.Repositories
 
         // RAngle
         public async Task<RAngle> AddRAngleValue(RAngle rAngle)
-        {
+        {   _logger.LogInformation($"Latest Information about network\n Network has shifted from the following location {rAngle.LocationFrom}, to the following location {rAngle.LocationTo}, by an angle change of {rAngle.Angle}° on {DateTime.Now.ToShortDateString()} at {DateTime.Now.TimeOfDay}\n\n");
             rAngle.DateReceived = DateTime.Now;
             _OdapDbContext.Add(rAngle);
             await _OdapDbContext.SaveChangesAsync();
