@@ -16,7 +16,9 @@ namespace OdapApi.IRepositories
         Task UpdateOdapDeviceById(DeviceData deviceMessage);
 
         //RAngle
-        Task AddRAngleValue(RAngle rAngle);
+        Task<RAngle> AddRAngleValue(RAngle rAngle);
         IEnumerable<RAngle> GetRecentRAngleMessage();
+        Task<RAngle> ApproveRAngle(int rAngleId);
+        Task<RAngle> InvalidateRAngle(int rAngleId);
     }
 }

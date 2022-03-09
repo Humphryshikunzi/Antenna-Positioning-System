@@ -602,6 +602,17 @@ C:\Users\humph\Desktop\Odap\Odap.Android\obj\Debug\110\stamp\_CopyIntermediateAs
 C:\Users\humph\Desktop\Odap\Odap.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\humph\Desktop\Odap\Odap.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\humph\Desktop\Odap\Odap.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\assets\mscorlib.dll
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\app_shared_libraries\x86_64\libxamarin-app.so
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\Odap.Android.dll
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\Odap.Android.pdb
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\com.companyname.odap.apk
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\com.companyname.odap.aab
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\com.companyname.odap-Signed.aab
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\com.companyname.odap-Signed.apk
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\com.companyname.odap-Signed.apk.idsig
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\Odap.dll
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\Odap.pdb
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\MonoAndroid,Version=v11.0.AssemblyAttributes.cs
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\build.props
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\adb.props
@@ -630,15 +641,6 @@ C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Oda
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\R.txt
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\R.cs.flag
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\Odap.Android.csproj.CoreCompileInputs.cache
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\Odap.Android.dll
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\Odap.Android.pdb
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\com.companyname.odap.apk
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\com.companyname.odap.aab
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\com.companyname.odap-Signed.aab
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\com.companyname.odap-Signed.apk
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\com.companyname.odap-Signed.apk.idsig
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\Odap.dll
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\bin\Debug\Odap.pdb
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\Odap.Android.csproj.CopyComplete
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\Odap.Android.dll
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\Odap.Android.pdb
@@ -680,7 +682,6 @@ C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Oda
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\assets\Mono.Android.pdb
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\assets\Mono.Security.dll
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\assets\Mono.Security.pdb
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\assets\mscorlib.dll
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\assets\mscorlib.pdb
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\assets\netstandard.dll
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\assets\Newtonsoft.Json.dll
@@ -829,9 +830,7 @@ C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Oda
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\assets\Xamarin.Google.Android.Material.dll
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\assets\Xamarin.Google.Android.Material.pdb
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\assets\Xamarin.Google.Guava.ListenableFuture.dll
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\androidx\jl\a7c3785b-9d59-4d71-a874-10c546ed7178.jar
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\stamp\_AndroidXJetifyJavaLibraryRules.stamp
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\androidx\proguard\8d4e6e40-a672-4f4a-bd93-44b5b87477ff.cfg
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\stamp\_AndroidXJetifyProguardRules.stamp
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\androidx\_AndroidXJetifyProguardRules.jetify
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\stamp\_AndroidXCecilfy.stamp
@@ -1204,7 +1203,6 @@ C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Oda
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\app_shared_libraries\x86\libxamarin-app.so
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\app_shared_libraries\x86_64\libxamarin-app.so
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\android\bin\classes.dex
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\stamp\_CleanIntermediateIfNeeded.stamp
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\stamp\_CompileToDalvik.stamp
@@ -1214,3 +1212,5 @@ C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Oda
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\androidx\jl\b212a8b3-159a-432d-bb36-160de945cb0e.jar
+C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\androidx\proguard\c7c5979b-1a31-4a47-aac4-3ffb7cdf8e5a.cfg

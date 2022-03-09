@@ -141,8 +141,6 @@ C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap-api\obj
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap-api\obj\Debug\netcoreapp3.1\Odap-Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap-api\obj\Debug\netcoreapp3.1\Odap-Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap-api\obj\Debug\netcoreapp3.1\staticwebassets\Odap-Api.StaticWebAssets.Manifest.cache
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap-api\obj\Debug\netcoreapp3.1\staticwebassets\Odap-Api.StaticWebAssets.xml
-C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap-api\obj\Debug\netcoreapp3.1\scopedcss\bundle\Odap-Api.styles.css
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap-api\obj\Debug\netcoreapp3.1\Odap-Api.RazorTargetAssemblyInfo.cache
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap-api\obj\Debug\netcoreapp3.1\Odap-Api.csproj.CopyComplete
 C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap-api\obj\Debug\netcoreapp3.1\Odap-Api.dll

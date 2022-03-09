@@ -40,12 +40,19 @@ namespace Odap.Views
             }
             else
             {
+                rAngleActivityIndicator.IsVisible = true;
+                rAngleActivityIndicator.IsRunning = true;
+                rControlBtn.Text = "Sending...";
                 HttpClient _httpClient = new HttpClient();
                 var jsonDataUser = JsonConvert.SerializeObject(rControlAngle);
                 var httpcontent = new StringContent(jsonDataUser);
                 httpcontent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-                var response = await _httpClient.PostAsync(Constants.BaseUrl + Constants.MessageUrl, httpcontent);
+                var response = await _httpClient.PostAsync(Constants.BaseUrl + Constants.AddRAngle, httpcontent);
+                rAngleActivityIndicator.IsVisible = false;
+                rAngleActivityIndicator.IsRunning = false;
                 alertLbl.IsVisible = true;
+                rControlBtn.Text = "Send";
+                rControlValueEntry.Text = Convert.ToString(0); 
             }
         }
     }

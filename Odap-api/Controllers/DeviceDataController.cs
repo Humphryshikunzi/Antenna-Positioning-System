@@ -18,20 +18,39 @@ namespace OdapApi.Controllers
             _OdapRepository = OdapRepository;
             _logger = logger;
         }
+        
+        //RAngle
+        [HttpPost("addOdapRAngle")]
+        public async Task<ActionResult> AddOdapRAngle(RAngle rAngle)
+        {
+            await _OdapRepository.AddRAngleValue(rAngle);
+            return Ok();
+        }
+        [HttpGet("recentRAngleMessage")]
+        public ActionResult GetRecentRAngleMessage()
+        {
+            return Ok(_OdapRepository.GetRecentRAngleMessage());
+        }
+        [HttpGet("approveRAngle/{rAngleId}")]
+        public async Task<ActionResult> ApproveRAangle(int rAngleId)
+        {
+            await _OdapRepository.ApproveRAngle(rAngleId);
+            return Ok(rAngleId);
+        }
+        [HttpGet("invalidateRAngle/{rAngleId}")]
+        public async Task<ActionResult> InvalidateRAngle(int rAngleId)
+        {
+            await _OdapRepository.InvalidateRAngle(rAngleId);
+            return Ok(rAngleId); 
+        }
 
+        //OdapDevice
         [HttpPost("addOdapObject")]
         public async Task<ActionResult> AddOdapMessage(DeviceData OdapObject)
         {
             await _OdapRepository.AddOdapDevice(OdapObject);
             return Ok();
         }
-        [HttpPost("addOdapRAngle")]
-        public async Task<ActionResult> AddOdapRAngle(RAngle OdapObject)
-        {
-            await _OdapRepository.AddRAngleValue(OdapObject);
-            return Ok();
-        }
-
         [HttpGet("all")]
         public ActionResult GetAll()
         {
@@ -42,18 +61,11 @@ namespace OdapApi.Controllers
         {
             return Ok(_OdapRepository.GetRecentMessages());
         }
-        [HttpGet("recentRAngleMessage")]
-        public ActionResult GetRecentRAngleMessage()
-        {
-            return Ok(_OdapRepository.GetRecentRAngleMessage());
-        }
-
         [HttpGet("getbyid/{id}")]
         public ActionResult GetById(int id)
         {
             return Ok(_OdapRepository.GetOdapDeviceById(id));
         }
-
         [HttpPut("update")]
         public async Task<ActionResult> Update(DeviceData deviceMessage)
         {
@@ -64,7 +76,6 @@ namespace OdapApi.Controllers
             }
             return BadRequest();
         }
-
         [HttpDelete("delete/{id}")]
         public ActionResult Delete(int id)
         {

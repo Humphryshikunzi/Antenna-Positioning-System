@@ -240,6 +240,21 @@ namespace OdapApi.Migrations
                     b.Property<int>("Angle")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("DateReceived")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("EmailToSendTo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LocationFrom")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LocationTo")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("RAngles");
