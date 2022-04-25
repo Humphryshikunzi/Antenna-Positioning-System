@@ -31,7 +31,12 @@ namespace Odap.Views
             var rControlAngle = new RAngle()
             {
                 Id = 0,
-                Angle =  angle
+                Angle =  angle,
+                IsApproved = true,
+                DateReceived = DateTime.Now,
+                EmailToSendTo = "humphry.shikunzi@outlook.com",
+                LocationFrom ="TA",
+                LocationTo = "TA"
             };
 
             if (!InternetService.Internet())

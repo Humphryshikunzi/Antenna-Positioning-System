@@ -21,6 +21,8 @@ com.google.android.material.bottomnavigation.BottomNavigationView;C:\Users\humph
 com.google.android.material.tabs.TabLayout;C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\lp\49\jl\res\layout\fallbacktabbardonotuse.xml
 com.google.android.material.tabs.TabLayout;C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\lp\49\jl\res\layout\rootlayout.xml
 com.google.android.material.tabs.TabLayout;C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\lp\49\jl\res\layout\tabbar.xml
+crc643f46942d9dd1fff9.ShellFlyoutLayout;C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\lp\49\jl\res\layout\flyoutcontent.xml
+crc64720bb2db43a66fe9.FormsViewPager;C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\lp\49\jl\res\layout\rootlayout.xml
 declare-styleable;C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\lp\49\jl\res\values\attrs.xml
 external-cache-path;C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\lp\48\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\Users\humph\Desktop\Safaricom\Project\Antenna-Positioning-System\Odap_New\Odap.Android\obj\Debug\110\lp\48\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
